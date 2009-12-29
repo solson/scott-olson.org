@@ -189,6 +189,10 @@ input, textarea, select {
 .post .entry {
 }
 
+.post .entry > * {
+  margin: 1em 0;
+}
+
 .post .meta {
 	padding: 15px 0 60px 0;
 	background: url(/images/img03.gif) repeat-x;
@@ -225,10 +229,8 @@ input, textarea, select {
 /* Highlight */
 
 .post>.entry>.highlight, .highlighttable {
-  margin-left: 20px;
   border: 1px solid #D9D9D9;
   background-color: #F8F8FF;
-  margin: 1em 0;
 }
 
 .highlighttable {
