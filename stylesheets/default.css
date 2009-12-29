@@ -352,6 +352,7 @@ html>body #footer {
   padding-top: 20px;
   text-align: center;
   color: #3B606D;
+  margin: 0;
 }
 
 #legal a {
