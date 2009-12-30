@@ -1,6 +1,6 @@
 desc "deploy site to scott-olson.org"
-task :deploy => [:build] do
-  sh "scp -r _site/* dh:scott-olson.org/www"
+task :deploy => [:clobber, :build] do
+  sh "rsync -e ssh -avz --delete _site/ dh:scott-olson.org/www"
 end
 
 desc "generate the static site files"
