@@ -2,25 +2,21 @@
 layout: default
 title: home
 ---
-<!-->
-<div class="box1">
-  <p><img src="images/img04.jpg" alt="" width="74" height="79" class="left" />I need to come up with a use for this cool box.</p>
-</div>
-</!-->
 
 {% for post in site.posts %}
   <div class="post">
-    {% if post == site.posts.first %}
+    <div class="header">
       <h1 class="title">{{ post.title }}</h1>
-    {% else %}
-      <h2 class="title">{{ post.title }}</h2>
-    {% endif %}
+      <p class="date">Posted on {{ post.date | date: "%B %d, %Y" }}</p>
+      <p class="links">
+        <a href="{{ post.url }}" class="permalink">Permalink</a>
+        <b>|</b>
+        <a href="#" class="comments">View Comments</a>
+      </p>
+      <div style="clear: both;"> </div>
+    </div>
     <div class="entry">
       {{ post.content }}
-    </div>
-    <div class="meta">
-      <p class="byline">Posted on {{ post.date | date: '%B %d, %Y'}}</p>
-      <p class="links"><a href="{{ post.url }}" class="more">Read full article</a> <b>|</b> <a href="#" class="comments">View Comments</a></p>
     </div>
   </div>
 {% endfor %}
