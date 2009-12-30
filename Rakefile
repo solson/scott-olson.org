@@ -1,5 +1,5 @@
 desc "deploy site to scott-olson.org"
-task :deploy do
+task :deploy => [:build] do
   sh "scp -r _site/* dh:scott-olson.org/www"
 end
 
