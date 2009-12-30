@@ -8,3 +8,8 @@ task :build do
   sh "jekyll --no-auto"
 end
 
+desc "delete the generated site files"
+task :clobber do
+  rm_r '_site'
+end
+
