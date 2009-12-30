@@ -183,7 +183,10 @@ input, textarea, select {
 }
 
 .post .header .title {
-  padding-bottom: 5px;
+}
+
+.post .header .title a {
+  text-decoration: none;
 }
 
 .post .header .date {
