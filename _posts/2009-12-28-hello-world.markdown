@@ -64,7 +64,7 @@ sumSquaresUpTo(10) #==> 385
 
 Inline math example: $x^{n}+y^{n} \neq z^{n}$ for $n \geq 3$
 
-And big one:
+And a big one:
 
 \[
 \sum_{n=1}^\infty \frac{1}{n}
