@@ -10,33 +10,6 @@ Version    : 1.0
 Released   : 20070723
 Description: A two-column, fixed-width and lightweight template ideal for 1024x768 resolutions. Suitable for blogs and small websites.
 
-    $(function() {
-      var limit = 5        // how many repos to list
-      var login = 'tsion'   // your username
-
-      var repos = [], list = $('ul#repos')
-
-      if( list.length > 0 ) {
-        list.empty();
-
-        $.getJSON('http://github.com/api/v1/json/' + login + '?callback=?', function(data) {
-          $.each(data.user.repositories, function() {
-            // This is kind of ugly, but then again, so is having your GitHub
-            // Pages repository be in your repo list.
-            if (!this.fork && this.name != 'tsion.github.com') repos.push(this)
-                    })
-
-          repos.sort(function(a, b) {
-            return b.watchers - a.watchers
-                    })
-
-                  $.each(repos.slice(0, limit), function() {
-                      list.append('<li><a href="' + this.url + '">' + this.name + ':</a> ' + this.description + '</li>');
-                    })
-                })
-      }
-      })
-
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
