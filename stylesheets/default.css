@@ -195,6 +195,7 @@ input, textarea, select {
 }
 
 .post .header .title {
+  text-transform: none;
 }
 
 .post .header .title a {
