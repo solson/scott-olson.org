@@ -1,3 +1,5 @@
+require 'rake/clean'
+
 desc "deploy site to scott-olson.org"
 task :deploy => [:clobber, :build] do
   sh "rsync -e ssh -avz --delete _site/ dh:scott-olson.org/www"
@@ -8,8 +10,5 @@ task :build do
   sh "jekyll --no-auto"
 end
 
-desc "delete the generated site files"
-task :clobber do
-  rm_r '_site'
-end
+CLOBBER.include('_site')
 
