@@ -67,9 +67,9 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
   </div>
   <div id="menu">
     <ul>
-      <li class="active"><a href="/">my blog</a></li>
-      <li><a href="/about">about me</a></li>
-      <li><a href="/contact">contact me</a></li>
+      <li{% if page.title == 'home' %} class="active"{% endif %}><a href="/">my blog</a></li>
+      <li{% if page.title == 'about' %} class="active"{% endif %}><a href="/about">about me</a></li>
+      <li{% if page.title == 'contact' %} class="active"{% endif %}><a href="/contact">contact me</a></li>
     </ul>
   </div>
 </div>
