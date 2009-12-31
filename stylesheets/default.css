@@ -9,13 +9,21 @@ Released for free under a Creative Commons Attribution 2.5 License
   padding: 0;
 }
 
+html,
 body {
-  margin: 100px 0 0 0;
-  padding: 0;
+  height: 100%;
+}
+
+body {
   background: #FFFFFF url(/images/img01.gif) repeat-x;
   font-family: "DejaVu Sans", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
   font-size: 13px;
   color: #333333;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
 }
 
 pre, code {
@@ -92,6 +100,7 @@ input, textarea, select {
   width: 850px;
   height: 82px;
   margin: 0 auto 40px auto;
+  padding-top: 100px;
   background: url(/images/img03.gif) repeat-x left bottom;
 }
 
@@ -162,6 +171,7 @@ input, textarea, select {
 #page {
   width: 850px;
   margin: 0 auto;
+  padding-bottom: 100px;   /* Height of the footer */
 }
 
 /* Content */
@@ -281,14 +291,12 @@ input, textarea, select {
 /* Footer */
 
 #footer {
-  height: 60px;
-  min-height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
   padding: 80px 0 0 0;
   background: #003448 url(/images/img09.gif) repeat-x;
-}
-
-html>body #footer {
-  height: auto;
 }
 
 #legal {
