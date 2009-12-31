@@ -190,6 +190,7 @@ input, textarea, select {
 
 .post .header {
   padding-bottom: 10px;
+  margin-bottom: 1em;
   background: url(/images/img03.gif) repeat-x left bottom;
 }
 
