@@ -6,7 +6,7 @@ layout: nil
 <title>scott-olson.org - a website.</title>
 
 <link href="http://scott-olson.org/posts.atom" rel="self" type="application/atom+xml"/>
-<link href="http://scott-olson.org/posts.html" type="text/html"/>
+<link href="http://scott-olson.org" type="text/html"/>
 
 <updated>{{ site.posts.first.date | date_to_xmlschema }}</updated>
 <author>
