@@ -308,6 +308,7 @@ input, textarea, select {
   text-align: center;
   color: #3B606D;
   margin: 0;
+  text-transform: lowercase;
 }
 
 #legal a {
