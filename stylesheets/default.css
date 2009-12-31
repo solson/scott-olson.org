@@ -28,6 +28,7 @@ body {
 
 pre, code {
   font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", Monaco, "Lucida Console", "Courier New", monospace;
+  font-size: 11px;
 }
 
 h1, h2, h3 {
