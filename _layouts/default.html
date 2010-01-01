@@ -59,6 +59,14 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
 
 <body>
 
+{% if page.title == 'contact' %}
+  {% assign active = 2 %}
+{% elsif page.title == 'about' %}
+  {% assign active = 1 %}
+{% else %}
+  {% assign active = 0 %}
+{% endif %}
+
 <div id="container">
 <div id="header">
   <div id="logo">
@@ -67,9 +75,9 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
   </div>
   <div id="menu">
     <ul>
-      <li{% if page.title == 'home' %} class="active"{% endif %}><a href="/">my blog</a></li>
-      <li{% if page.title == 'about' %} class="active"{% endif %}><a href="/about">about me</a></li>
-      <li{% if page.title == 'contact' %} class="active"{% endif %}><a href="/contact">contact me</a></li>
+      <li{% if active == 0 %} class="active"{% endif %}><a href="/">my blog</a></li>
+      <li{% if active == 1 %} class="active"{% endif %}><a href="/about">about me</a></li>
+      <li{% if active == 2 %} class="active"{% endif %}><a href="/contact">contact me</a></li>
     </ul>
   </div>
 </div>
