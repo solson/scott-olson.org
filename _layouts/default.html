@@ -59,13 +59,14 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
 
 <body>
 
-{% if page.title == 'contact' %}
+{% case page.title %}
+{% when 'contact' %}
   {% assign active = 2 %}
-{% elsif page.title == 'about' %}
+{% when 'about' %}
   {% assign active = 1 %}
 {% else %}
   {% assign active = 0 %}
-{% endif %}
+{% endcase %}
 
 <div id="container">
 <div id="header">
