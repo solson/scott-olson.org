@@ -186,6 +186,16 @@ input, textarea, select {
   padding-bottom: 5px;
 }
 
+#content ul {
+  padding-left: 1.5em;
+  list-style: circle;
+}
+
+#content li {
+  line-height: 1.5em;
+  padding-bottom: 0.5em;
+}
+
 /* Post */
 
 .post {
