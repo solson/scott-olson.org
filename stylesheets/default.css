@@ -148,6 +148,11 @@ input, textarea, select {
   display: inline;
 }
 
+#menu #subscribe {
+  padding-left: 26px;
+  background: url(/images/feed-icon-14x14.png) no-repeat 7px 50%;
+}
+
 #menu a {
   display: block;
   float: left;
