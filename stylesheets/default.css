@@ -161,6 +161,7 @@ input, textarea, select {
   text-decoration: none;
   font-size: 13px;
   color: #000000;
+  text-transform: lowercase;
 }
 
 #menu a:hover {
