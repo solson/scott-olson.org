@@ -301,10 +301,14 @@ input, textarea, select {
 #sidebar li ul {
 }
 
-#sidebar li li {
+#sidebar li ul li {
   line-height: 1.5em;
   padding-bottom: 1em;
   margin: 0;
+}
+
+#sidebar li ul li > * {
+  margin: 1em 0;
 }
 
 #sidebar h2 {
