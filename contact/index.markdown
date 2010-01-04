@@ -22,5 +22,3 @@ There are a number of ways to find this fellow:
 [bitlbee]:  http://www.bitlbee.org/
 [twitter]:  http://twitter.com/tsion
 [github]:   http://github.com/tsion
-
-*[Relay a message]: Bad IRC pun!
