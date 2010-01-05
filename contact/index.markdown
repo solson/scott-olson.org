@@ -10,7 +10,7 @@ There are a number of ways to find this fellow:
 * Send him an [electronic mail][email]!
 * Relay a message to **scott_** on [freenode][freenode] or **scott** on [EighthBit][8b].
 * Instantly message him on [ICQ][icq] (431528926), [Jabber][jabber] (scott@scott-olson.org), [MSN / Windows Live Messenger][msn] (sco50000@hotmail.com), and [AIM][aim] (scottboat). Don't worry, he doesn't use *their* programs, he uses [BitlBee][bitlbee]!
-* Tweet **@tsion** on [Twitter][twitter].
+* Follow **@tsion** on [Twitter][twitter].
 * Fork **tsion** on [GitHub][github].
 
 [email]:    mailto:scott@scott-olson.org
