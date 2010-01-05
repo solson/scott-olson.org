@@ -109,13 +109,18 @@ input, textarea, select {
 }
 
 #logo h1 {
-  font-size: 34px;
+  font-size: 36px;
   color: #494949;
 }
 
 #logo h1 sup {
   vertical-align: text-top;
   font-size: 24px;
+}
+
+#logo h1 small {
+  color: #00567A;
+  font-size: 0.6em;
 }
 
 #logo h1 a {
@@ -216,6 +221,7 @@ input, textarea, select {
 
 .post .header .title {
   text-transform: none;
+  font-size: 24px;
 }
 
 .post .header .title a {
