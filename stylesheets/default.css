@@ -39,9 +39,9 @@ h1, h2, h3 {
 }
 
 p, ul, ol {
-  margin: 1em 0;
-  line-height: 26px;
   font-size: 11px;
+  line-height: 1.7em;
+  margin: 1em 0;
 }
 
 a:link {
@@ -167,6 +167,7 @@ input, textarea, select {
   font-size: 13px;
   color: #000000;
   text-transform: lowercase;
+  line-height: 26px;
 }
 
 #menu a:hover {
@@ -198,8 +199,7 @@ input, textarea, select {
 }
 
 #content ul {
-  padding-left: 1em;
-  list-style: inside;
+  list-style: outside;
 }
 
 #content li {
@@ -321,6 +321,7 @@ input, textarea, select {
   margin-bottom: 1em;
   background: url(/images/img03.gif) repeat-x left bottom;
   font-size: 16px;
+  line-height: 26px;
 }
 
 /* Footer */
