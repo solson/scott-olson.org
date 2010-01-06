@@ -75,12 +75,12 @@ img.right {
 
 .tooltip {
   position: relative;
-  text-decoration: underline;
+  border-bottom: 1px dotted;
   cursor: help;
 }
 
 .tooltip:hover {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .tooltip .container {
