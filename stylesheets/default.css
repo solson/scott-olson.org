@@ -71,6 +71,35 @@ img.right {
   margin-left: 15px;
 }
 
+/* Tooltips */
+
+.tooltip {
+  position: relative;
+  text-decoration: underline;
+  cursor: help;
+}
+
+.tooltip .tooltip-box {
+  display: none;
+}
+
+.tooltip:hover {
+  text-decoration: none;
+}
+
+.tooltip:hover .tooltip-box {
+  display: block;
+  z-index: 100;
+  position: absolute;
+  top: 1.6em;
+  left: 0;
+  width: 20em;
+  padding: 0.5em;
+  line-height: 1em;
+  background-color: #ECECEC;
+  border: 1px solid #D9D9D9;
+}
+
 /* Form */
 
 form {
