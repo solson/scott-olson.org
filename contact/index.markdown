@@ -13,6 +13,7 @@ conveniently collected on one page:
 * Instantly message him on [ICQ][icq] (431528926), [Jabber][jabber] (scott@scott-olson.org), [MSN / Windows Live Messenger][msn] (sco50000@hotmail.com), and [AIM][aim] (scottboat). Don't worry, he doesn't use *their* programs, he uses [BitlBee][bitlbee]!
 * Follow **@tsion** on [Twitter][twitter].
 * Fork **tsion** on [GitHub][github].
+* See what **sco50000**'s ears have been up to on [last.fm][lastfm].
 
 [email]:    mailto:scott@scott-olson.org
 [freenode]: irc://irc.freenode.net
@@ -24,3 +25,4 @@ conveniently collected on one page:
 [bitlbee]:  http://www.bitlbee.org/
 [twitter]:  http://twitter.com/tsion
 [github]:   http://github.com/tsion
+[lastfm]:   http://www.last.fm/user/sco50000
