@@ -5,7 +5,8 @@ title: contact
 
 # Contacting Scott Olson
 
-There are a number of ways to find this fellow:
+Various methods of stalking, pestering, and communicating with Scott Olson,
+conveniently collected on one page:
 
 * Send him an [electronic mail][email]!
 * Relay a message to **scott_** on [freenode][freenode] or **scott** on [EighthBit][8b].
