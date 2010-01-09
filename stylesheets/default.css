@@ -44,6 +44,12 @@ p, ul, ol {
   margin: 1em 0;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background: url(/images/img03.gif) repeat-x left bottom;
+}
+
 a:link {
   color: #333333;
 }
