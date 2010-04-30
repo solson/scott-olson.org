@@ -77,6 +77,14 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
           <li><a href="http://github.com/tsion/ooc-freeimage">ooc-freeimage</a>: ooc bindings for the FreeImage graphics library</li>
         </ul>
       </li>
+      <li>
+        <h2><b>Posts</b></h2>
+        <ul>
+          {% for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
     </ul>
   </div>
 
