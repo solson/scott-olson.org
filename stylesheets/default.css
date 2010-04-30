@@ -17,6 +17,7 @@ body {
 body {
   background: #FFFFFF url(/images/img01.gif) repeat-x;
   font-family: "DejaVu Sans", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+  text-align: justify;
   font-size: 13px;
   color: #333333;
 }
