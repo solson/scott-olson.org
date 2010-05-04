@@ -33,15 +33,6 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
 
 <body>
 
-{% case page.title %}
-{% when 'contact' %}
-  {% assign active = 2 %}
-{% when 'about' %}
-  {% assign active = 1 %}
-{% else %}
-  {% assign active = 0 %}
-{% endcase %}
-
 <div id="container">
 <div id="header">
   <a href="http://github.com/tsion"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
@@ -52,10 +43,11 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
   </div>
   <div id="menu">
     <ul>
-      <li{% if active == 0 %} class="active"{% endif %}><a href="/">My Blog</a></li>
+      <li{% if page.active == "blog" %} class="active"{% endif %}><a href="/">My Blog</a></li>
+      <li{% if page.active == "projects" %} class="active"{% endif %}><a href="/projects">Projects</a></li>
       <li><a id="subscribe" href="http://feeds.feedburner.com/scott-olson-org">Subscribe</a></li>
-      <li{% if active == 1 %} class="active"{% endif %}><a href="/about/">About Me</a></li>
-      <li{% if active == 2 %} class="active"{% endif %}><a href="/contact/">Contact Me</a></li>
+      <li{% if page.active == "about" %} class="active"{% endif %}><a href="/about/">About Me</a></li>
+      <li{% if page.active == "contact" %} class="active"{% endif %}><a href="/contact/">Contact Me</a></li>
     </ul>
   </div>
 </div>
