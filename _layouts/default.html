@@ -45,7 +45,6 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
     <ul>
       <li{% if page.active == "blog" %} class="active"{% endif %}><a href="/">My Blog</a></li>
       <li{% if page.active == "projects" %} class="active"{% endif %}><a href="/projects">Projects</a></li>
-      <li><a id="subscribe" href="http://feeds.feedburner.com/scott-olson-org">Subscribe</a></li>
       <li{% if page.active == "about" %} class="active"{% endif %}><a href="/about/">About Me</a></li>
       <li{% if page.active == "contact" %} class="active"{% endif %}><a href="/contact/">Contact Me</a></li>
     </ul>
@@ -75,6 +74,7 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
           {% for post in site.posts %}
             <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}</a></li>
           {% endfor %}
+          <li><a id="subscribe" href="http://feeds.feedburner.com/scott-olson-org">Subscribe</a></li>
         </ul>
       </li>
     </ul>
