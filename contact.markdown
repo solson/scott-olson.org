@@ -3,7 +3,7 @@ layout: default
 title: contact
 ---
 
-# Contacting Me
+# Contact
 
 Various methods of stalking and pestering me, conveniently collected on one page:
 
