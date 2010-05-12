@@ -1,0 +1,16 @@
+* {
+	color: #FFFFFF;
+}
+
+body {
+	background-color: #BAA06F;
+}
+
+#header {
+	background-image: url("/themes/cat/header.jpg");
+}
+
+#page > div {
+	background-color: #776749;
+	border-color: #5D4D32;
+}
