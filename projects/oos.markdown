@@ -1,7 +1,6 @@
 ---
 layout: default
 title: oos
-active: projects
 ---
 
 # oos

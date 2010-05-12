@@ -1,7 +1,6 @@
 ---
 layout: default
 title: projects
-active: projects
 ---
 
 # Projects

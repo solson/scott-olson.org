@@ -1,7 +1,6 @@
 ---
 layout: default
 title: contact
-active: contact
 ---
 
 # Contacting Me
