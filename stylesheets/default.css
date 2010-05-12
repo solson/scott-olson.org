@@ -33,6 +33,10 @@ img {
 	padding-bottom: 0px;
 }
 
+#header h1 a {
+	border: none;
+}
+
 #page {
 	margin: auto;
 	width: 800px;
@@ -54,12 +58,16 @@ img {
 	text-align: center;
 }
 
-ul#navbar {
+#navbar {
 	list-style: none;
+	margin: 1em 2em;
+	padding: 0.5em;
+	width: 15em;
+	border: 1px solid transparent;
 }
 
-ul#navbar li a:link,
-ul#navbar li a:visited {
+#navbar li a:link,
+#navbar li a:visited {
 	border: none;
 }
 

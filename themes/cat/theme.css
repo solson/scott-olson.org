@@ -1,16 +1,35 @@
-* {
-	color: #FFFFFF;
-}
-
 body {
 	background-color: #BAA06F;
+	color: #FFFFFF;
 }
 
 #header {
 	background-image: url("/themes/cat/header.jpg");
 }
 
+#header h1 {
+	text-shadow: 2px 2px 10px #000000;
+}
+
+#navbar {
+	background-color: rgba(119, 103, 73, 0.7);
+	border-color: #5D4D32;
+}
+
 #page > div {
 	background-color: #776749;
 	border-color: #5D4D32;
+}
+
+a:link,
+a:visited {
+	color: #FFEDCA;
+	border-color: #FFEDCA;
+}
+
+a:focus,
+a:hover,
+a:active {
+	color: #FFFFFF;
+	border-color: #FFEDCA;
 }
