@@ -9,7 +9,7 @@ Various methods of stalking and pestering me, conveniently collected on one page
 
 * Send me an [electronic mail][email]!
 * Relay a message to **scott_** on [freenode][freenode] or **scott** on [NinthBit][9b].
-* Instantly message me on [ICQ][icq] (431528926), [Jabber][jabber] (scott@scott-olson.org), [MSN / Windows Live Messenger][msn] (sco50000@hotmail.com), and [AIM][aim] (scottboat). Don't worry, I doesn't use *their* programs, I use [BitlBee][bitlbee]!
+* Instantly message me on [ICQ][icq] (431528926), [Jabber][jabber] (scott@scott-olson.org), [MSN / Windows Live Messenger][msn] (sco50000@hotmail.com), and [AIM][aim] (scottboat). Don't worry, I don't use *their* programs, I use [BitlBee][bitlbee]!
 * Follow **@tsion** on [Twitter][twitter].
 * Fork **tsion** on [GitHub][github].
 * See what **sco50000**'s ears have been up to on [last.fm][lastfm].
