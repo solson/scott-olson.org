@@ -60,7 +60,7 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
   var links = document.getElementsByTagName('a');
   var query = '?';
   for(var i = 0; i < links.length; i++) {
-  if(links[i].href.indexOf('#comments') >= 0) {
+  if(links[i].href.indexOf('#disqus_thread') >= 0) {
     query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
   }
   }

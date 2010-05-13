@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="header">
-    <h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-    <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
-    <p class="links">
-      <a href="{{ page.url }}" class="permalink">Permalink</a>
-      <b>|</b>
-      <a href="{{ page.url }}#comments" class="comments">View Comments</a>
-    </p>
-    <div style="clear: both;"> </div>
-  </div>
-  <div class="entry">
-    {{ content }}
-  </div>
-  <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/scott-olson-blog/embed.js"></script><noscript><a href="http://disqus.com/forums/scott-olson-blog/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
+<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<p>{{ page.date | date: "%B %d, %Y" }} |
+  <a href="{{ page.url }}#disqus_thread">View Comments</a>
+</p>
+{{ content }}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /**
+    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread]
+    */
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://scott-olson-blog.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=scott-olson-blog">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
