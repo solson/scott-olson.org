@@ -12,6 +12,7 @@ body {
 }
 
 #navbar {
+	background-color: rgb(119, 103, 73);
 	background-color: rgba(119, 103, 73, 0.7);
 	border-color: #5D4D32;
 	width: 10em;
