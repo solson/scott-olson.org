@@ -22,6 +22,10 @@ body {
 	border-color: #5D4D32;
 }
 
+code {
+	background-color: #665639;
+}
+
 a:link,
 a:visited {
 	color: #FFEDCA;
