@@ -22,6 +22,10 @@ body {
 	border-color: #5D4D32;
 }
 
+.highlight {
+	background-color: #ffe8c0;
+}
+
 code {
 	background-color: #665639;
 }
