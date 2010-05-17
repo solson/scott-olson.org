@@ -27,3 +27,7 @@ And here it is with semicolons instead of newlines:
 {% highlight ruby %}
 require'socket';a,p,c=$*;$>=TCPSocket.new a,p;puts"USER "*5,"NICK w";$>.each{|l|puts case l;when/(P.+)-/;$1+$';when/PI/;"PO#$'JOIN "+c;end}
 {% endhighlight %}
+
+Run the bot using `ruby <file> <network> <port> <channel>`,
+eg `ruby bot.rb irc.ninthbit.net 6667 #programming`. It will join with the nick
+"w".
