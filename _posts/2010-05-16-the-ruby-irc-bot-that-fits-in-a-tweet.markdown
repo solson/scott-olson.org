@@ -31,3 +31,6 @@ require'socket';a,p,c=$*;$>=TCPSocket.new a,p;puts"USER "*5,"NICK w";$>.each{|l|
 Run the bot using `ruby <file> <network> <port> <channel>`,
 eg `ruby bot.rb irc.ninthbit.net 6667 #programming`. It will join with the nick
 "w".
+
+Even though it's only 140 chars, we managed to give it one command: If you say
+"-blah blah" it will say "blah blah".
